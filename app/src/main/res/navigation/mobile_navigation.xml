@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment android:id="@+id/nav_home"
+        android:name="com.mojalu75.navigationdrawer.HomeFragment"
+        android:label="Home" tools:layout="@layout/fragment_home" />
+    <fragment android:id="@+id/nav_gallery"
+        android:name="com.mojalu75.navigationdrawer.GalleryFragment"
+        android:label="Gallery" tools:layout="@layout/fragment_gallery" />
+    <!-- Añade el resto de fragmentos (slideshow, tools, share, send) siguiendo la misma estructura -->
+</navigation>
